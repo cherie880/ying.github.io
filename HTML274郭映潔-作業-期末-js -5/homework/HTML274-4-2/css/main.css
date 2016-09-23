@@ -1,0 +1,628 @@
+/*導覽列*/
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #363636;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/*導覽列容器設定*/
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+/*導覽列連結*/
+
+nav a {
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sparkling {
+    font-size: 20px;
+    float: left;
+    line-height: 80px;
+    font-family: serif;
+}
+
+
+/*導覽列選項設定*/
+
+.nav-item {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    height: 80px;
+}
+
+nav li {
+    float: left;
+    left: 120px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 80px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #e55f5f
+}
+
+
+/*標題列設定*/
+
+header {
+    width: 100%;
+    height: 580px;
+    float: left;
+}
+
+
+/*標題列上方*/
+
+.header-top {
+    height: 480px;
+    background-image: url(../img/slider-image-blurry.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/*標題上方容器*/
+
+.header-top-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+/*標題上方容器區塊*/
+
+.top-container-box {
+    margin-top: 250px;
+    float: left;
+}
+
+.post-format {
+    font-size: 15px;
+    padding: 10px;
+    left: 200px;
+    width: 380px;
+    color: #fff;
+    background-color: #c94040;
+}
+
+.post-format-contain {
+    font-size: 15px;
+    padding: 5px;
+    left: 200px;
+    width: 580px;
+    color: #fff;
+    background-color: #363636;
+}
+
+
+/*切換格子*/
+
+.black_box1 {
+    position: absolute;
+    left: 850px;
+    width: 20px;
+    height: 10px;
+    margin-top: 400px;
+    background-color: #000000;
+}
+
+.black_box2 {
+    position: absolute;
+    left: 890px;
+    width: 20px;
+    height: 10px;
+    margin-top: 400px;
+    background-color: #000000;
+}
+
+.black_box3 {
+    position: absolute;
+    left: 930px;
+    width: 20px;
+    height: 10px;
+    margin-top: 400px;
+    background-color: #000000;
+}
+
+
+/*標題列下方*/
+
+.header-bot {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+}
+
+
+/*標題下方容器*/
+
+.header-bot-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*標題下方容器區塊*/
+
+.bop-container-box {
+    position: relative;
+    top: 25px;
+    overflow: auto;
+}
+
+
+/*標題下方文字*/
+
+.header-bot-container h1 {
+    font-family: sans-serif;
+    color: #ea4c4c;
+    font-size: 20px;
+    padding: 10px;
+    float: left;
+}
+
+
+/*標題下方連結*/
+
+header a {
+    list-style: none;
+    text-decoration: none;
+    color: #ea4c4c;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid #ea4c4c;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header a:hover {
+    color: #ffffff;
+    background-color: #ea4c4c;
+}
+
+
+/*文章區塊*/
+
+
+/*文章區塊設定*/
+
+section {
+    margin: 0 auto;
+    background-color: #e6e6e6;
+    padding: 50px;overflow: auto;
+}
+
+
+/*文章區塊容器*/
+
+.section-container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+/*左邊區塊*/
+
+
+/*左邊區塊設定*/
+
+.left-section {
+    width: 750px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+/*左邊文章統一設定*/
+
+[class^=article] {
+    width: 100%;
+    height: 730px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #b2b2b2;
+}
+
+
+/*左邊文章圖片設定*/
+
+.article img {
+    width: 100%;
+}
+
+
+/*左邊文章內容設定*/
+
+.block-1 {
+    margin: 0 auto;
+    width: 90%;
+}
+
+section div h1 {
+    font-family: serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.left-section p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #9a9a9a;
+}
+
+
+/*Read more button設定*/
+
+[class^=read_more-button] {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ea4c4c;
+    font-family: sans-serif;
+    position: relative;
+    left: 550px;
+}
+
+section a {
+    color: #ffffff;
+    text-decoration: none
+}
+
+
+/*Read more button高度設定*/
+
+.read_more-button-1 {
+    top: 25px;
+}
+
+.read_more-button-2 {
+    top: 40px;
+}
+
+.read_more-button-3 {
+    top: 60px;
+}
+
+.read_more-button-4 {
+    top: 20px;
+}
+
+.read_more-button-5 {
+    top: 5px;
+}
+
+section h1 a {
+    color: #000000;
+    text-decoration: none
+}
+
+section h1 a:hover {
+    color: #ea4c4c;
+}
+
+
+/*older_posts設定*/
+
+.older_posts {
+    font-family: sans-serif;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+
+/*右邊區塊*/
+
+
+/*右邊區塊設定*/
+
+.right-section {
+    width: 33%;
+    height: 2000px;
+    float: left;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid #b2b2b2;
+}
+
+
+/*右邊區塊容器*/
+
+.right-section-container {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.right-section h1 {
+    font-size: 18px;
+    color: #7b7b7b;
+    margin-bottom: 15px;
+}
+
+
+/*社群網站連結*/
+
+.popular-link-all {
+    margin-top: 30px;
+}
+
+
+/*熱點連結*/
+
+.popular-link {
+    height: 68px;
+    margin-bottom: 30px;
+}
+
+
+/*熱點圖片設定*/
+
+.popular-link-pic {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 20px;
+}
+
+.popular-link-pic img {
+    border-radius: 8px;
+}
+
+
+/*熱點文字設定*/
+
+.popular-link-word {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #9a9a9a;
+    float: left;
+    width: 190px;
+}
+
+
+/*分類選項設定*/
+
+.right-section-catagory1 ul {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #9a9a9a;
+    line-height: 2.5;
+    list-style: none;
+}
+
+.right-section-catagory1 li {
+    border-bottom: 1px solid #9a9a9a;
+}
+
+
+/*搜尋欄位設定*/
+
+.right-section-search {
+    margin-top: 30px;
+}
+
+
+/*評論欄位設定*/
+
+.right-section-commet ul {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #9a9a9a;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.right-section-commet li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+
+/*關鍵字容器*/
+
+.tag-container {
+    font-family: sans-serif
+}
+
+
+/*關鍵字標籤設定*/
+
+.tag-container li {
+    float: left;
+    list-style: none;
+    background-color: #9a9a9a;
+    border-radius: 2px;
+    margin: 2px;
+    padding: 3px;
+    color: #ffffff;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 800px;clear: both;
+}
+
+
+/*Footer1 設定*/
+
+.footer1 {
+    width: 100%;
+    height: 600px;
+    background-color: #363636;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/*下方3區塊設定*/
+
+[class^=zone] {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.footer-container h1 {
+    color: #9a9a9a;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+/*區塊一設定*/
+
+.zone1 {
+    float: left;
+    width: 30%;
+}
+
+.zone1 p {
+    color: #c9c9c9;
+    font-family: sans-serif;
+    font-size: 12px
+}
+
+
+/*區塊二設定*/
+
+.zone2 {
+    float: left;
+    width: 30%;
+}
+
+.zone2 li {
+    width: 400px;
+    list-style: none;
+    color: #c9c9c9;
+    font-family: sans-serif;
+    line-height: 3;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+
+/*區塊三設定*/
+
+.zone3 {
+    float: left;
+    width: 30%;
+}
+
+.zone3 img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.zone3 p {
+    line-height: 1.5;
+    color: #c9c9c9;
+    font-family: sans-serif;
+    font-size: 13px
+}
+
+
+/*Footer2 設定*/
+
+.footer2 {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+/*Footer2-1 設定*/
+
+.footer2-1 img {
+    margin-top: 10px;
+    width: 20%;
+   margin-left: 500px;
+}
+
+
+/*Footer2-2 設定*/
+
+.footer2-2 {
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.footer2-2 li {
+    float: left;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer2-2 a {
+    line-height: 40px;
+    list-style: none;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.footer2-2_word {
+    color: #e0e0e0;
+    float: right;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+
+/*回到最上層按鍵設定*/
+
+.top {
+    position: fixed;
+    top: 900px;
+    right: 80px;
+    width: 50px;
+}
+
+.top a {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 25px;
+    background-color: #9a9a9a;
+    border-radius: 5px;
+    padding: 10px 15px 5px;
+    text-decoration: none;
+}

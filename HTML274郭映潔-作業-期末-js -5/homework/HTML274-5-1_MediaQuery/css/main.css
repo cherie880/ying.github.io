@@ -1,0 +1,452 @@
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*導覽列*/
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #ededed;
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/*導覽列容器設定*/
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*導覽列連結*/
+
+nav a {
+    list-style: none;
+    color: #666;
+    text-decoration: none;
+    height: auto;
+}
+
+.nav-logo {
+    width: 20%;
+    margin-top: 10px;
+    font-size: 20px;
+    float: left;
+    font-family: serif;
+}
+
+
+/*導覽列選項設定*/
+
+.nav-item {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    height: 80px;
+}
+
+nav li {
+    float: left;
+    left: 120px;
+    margin-left: 30px;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 80px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #000000
+}
+
+
+/*區塊 1 設定*/
+
+.section-1 {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/photo-1443527216320-7e744084f5a7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.section-1-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding-bottom: 200px
+}
+
+
+/*區塊 1 文字設定*/
+
+.section-1-container h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.section-1-container p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/*區塊 1 button設定*/
+
+.button-section-1-all li {
+    margin: 3px;
+    font-size: 12px;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.button-section-1-read_more {
+    border: 2px solid #ffffff;
+}
+
+.button-section-1-download {
+    background-color: #9a77f8;
+}
+
+.button-section-1-read_more a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.button-section-1-download a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*區塊 2 設定*/
+
+.section-2 {
+    width: 100%;
+    height: auto;
+    color: #575757;
+    font-family: sans-serif;
+}
+
+.section-2-container {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+.section-2-img {
+    width: 100%;
+}
+
+.section-2-word {
+    height: 300px;
+    width: 50%;
+}
+
+.word-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 13% 5%;
+}
+
+.word-container h1 {
+    font-size: 20px;
+    padding-bottom: 20px
+}
+
+.word-container p {
+    font-size: 12px;
+}
+
+.section-2-button {
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+.section-2-button a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*區塊 3 設定*/
+
+.section-3 {
+    width: 100%;
+    height: auto;
+    color: #575757;
+    font-family: sans-serif;
+    background-color: #e3e3e3;
+}
+
+.section-3-container {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+
+/*區塊 4 設定*/
+
+.section-4 {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/photo-1452723312111-3a7d0db0e024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.section-4-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 200px
+}
+
+.section-4-container h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.section-4-container p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+
+/*區塊 5 設定*/
+
+.section-5 {
+    width: 100%;
+    height: auto;
+    color: #575757;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-5-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-5-container h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.section-5-container p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.section-5 img {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+
+/*區塊 6 設定*/
+
+.section-6 {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background-color: #000000;
+    padding-bottom: 30px;
+}
+
+.section-6 h1 {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.section-6 p {
+    font-size: 18px;
+    margin-top: 12px;
+    padding-bottom: 30px;
+}
+
+.section-6-pic {}
+
+
+/*區塊 7 設定*/
+
+.section-7 {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/photo-1452723312111-3a7d0db0e024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.section-7-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 200px
+}
+
+.section-7-container h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.section-7-container p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.section-7-pic-2 img {
+    width: 15%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-radius: 150px 150px 150px 150px;
+}
+
+.section-7-pic-1 img {
+    padding-top: 200px;
+    width: 2%;
+    float: left;
+}
+
+.section-7-pic-3 img {
+    padding-top: 200px;
+    width: 2%;
+    float: right;
+}
+
+
+/*區塊 8 設定*/
+
+.section-8 {
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    color: #575757;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.section-8-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 200px
+}
+
+.section-8-container h1 {
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.section-8-pic img {
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+/*區塊 9 設定*/
+
+.section-9 {
+    width: 100%;
+    height: auto;
+    color: #575757;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e3e3e3;
+}
+
+.section-9-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.section-9-container h1 {
+    font-size: 15px;
+}
+
+.section-9-button {
+    margin: 0 auto;
+    font-size: 12px;
+    background-color: #9a77f8;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.section-9-button a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/*Footer*/
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    height:auto;
+    background-color: #000000;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#footer-link {
+    padding-top: 20px;
+}
+
+#footer-link p {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #b9b9b9;
+}
+
+#footer-link a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 50px;
+}

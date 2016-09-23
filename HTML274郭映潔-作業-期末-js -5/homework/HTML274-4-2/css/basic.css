@@ -1,0 +1,26 @@
+/*所有標籤共同設定*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*基本標籤 margin padding reset*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+div,
+header,
+nav,
+footer,
+aside,
+section,
+article,
+ul{
+    margin: 0;
+    padding: 0;
+}
